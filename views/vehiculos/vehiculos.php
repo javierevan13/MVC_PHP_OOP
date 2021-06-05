@@ -24,7 +24,6 @@
         </thead>
         <tbody>
         <?php 
-
             foreach($data ["vehiculos"] as $dato)
             {
                 echo "<tr>";
