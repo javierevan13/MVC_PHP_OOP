@@ -11,7 +11,7 @@
 </head>
 <body>
     <h2><?php echo $data["titulo"];?></h2>
-    <a href="#" class="add-button">Agregar</a>
+    <a href="index.php?c=vehiculos&a=nuevo" class="add-button">Agregar</a>
     <table class="table-database">
         <thead>
             <tr>
