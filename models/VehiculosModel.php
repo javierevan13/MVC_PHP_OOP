@@ -15,5 +15,10 @@
         {
             $sql = "SELECT * FROM vehiculos";
             $resultado = $this -> db -> query ($sql);
+            while($row = $resultado -> fetch_assoc())
+            {
+                $this -> vehiculos[]= $row;
+            }
+            return $this -> vehiculos;
         }
     }
