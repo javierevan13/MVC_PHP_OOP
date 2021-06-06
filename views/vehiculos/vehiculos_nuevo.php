@@ -11,23 +11,23 @@
 </head>
 <body>
     <h2><?php echo $data ["titulo"];?></h2>
-    <form action="" id="nuevo" name="nuevo" method="POST" action="" autocomplete="off">
-        <div class="space"> 
+    <form  id="nuevo" name="nuevo" method="POST" action="index.php?c=vehiculos&a=guarda" autocomplete="off">
+        <p class="space"> 
             <label for="placa">Placa: <input type="text" id="placa" name="placa"></label>
-        </div>
-        <div class="space"> 
+        </p>
+        <p class="space"> 
             <label for="marca">Marca: <input type="text" id="marca" name="marca"></label>
-        </div>
-        <div class="space"> 
+        </p>
+        <p class="space"> 
             <label for="modelo">Modelo: <input type="text" id="modelo" name="modelo"></label>
-        </div>
-        <div class="space"> 
+        </p>
+        <p class="space"> 
             <label for="anio">Año: <input type="text" id="anio" name="anio"></label>
-        </div>
-        <div class="space"> 
+        </p>
+        <p class="space"> 
             <label for="color">Color: <input type="text" id="color" name="color"></label>
-        </div>
-        <input type="submit" value="Guardar" class="add-button" name="guardad" id="guardar">
+        </p>
+        <input type="submit" value="Guardar" class="add-button" name="guardar" id="guardar">
     </form>
 </body>
 </html>
