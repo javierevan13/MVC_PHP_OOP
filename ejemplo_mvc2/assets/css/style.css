@@ -1,0 +1,34 @@
+.table-database,
+tr,
+th,
+td {
+    border: 2px solid black;
+    margin: 10px;
+}
+
+tr:nth-child(odd) {
+    background: gray;
+    color: white;
+}
+
+th {
+    background: black;
+    color: white∫;
+}
+
+.add-button {
+    display: inline-block;
+    background: blue;
+    color: white;
+    line-height: 2.5;
+    padding: 0 1em;
+    text-decoration: none;
+}
+
+.add-button:active {
+    transform: scale(0.6);
+}
+
+.space {
+    margin: 8px;
+}
